@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="description" content="About Us Page">
+      <meta name="keywords" content="HTML, CSS, JavaScript">
+      <meta name="author" content="">
+      <style>
+         @font-face {
+         font-family: GreatFont;
+         src: url('Open_Sans/OpenSans-SemiBoldItalic.ttf');
+         }
+         body
+         {
+         background: rgb(102,2,85);
+         background: linear-gradient(90deg, rgba(102,2,85,0.7931372378052783) 0%, rgba(148,122,146,0) 43%, rgba(207,144,252,0.24971987085849967) 73%, rgba(72,131,143,1) 100%);
+         font-family: GreatFont;
+         font-size: 20px;
+         color: #0d1a26;
+         }
+         .row {
+         display: flex;
+         padding-left: 15%; text-align: left; padding-right: 15%;
+         }
+         .column {
+         flex: 50%;
+         padding: 10px;
+         height: 50%; 
+         }
+         h1
+         {
+         color: #3d2c45;
+         text-align: right;
+         }
+         h2
+         {
+         color: #006666;
+         text-align: right;
+         }
+         @media only screen and (max-width: 769px) {
+         .coloumn.p
+         {
+         font-size: 4px;
+         }
+         }
+      </style>
+      <title>
+         AboutUs
+      </title>
+   </head>
+   <body>
+      <h1>About Us</h1>
+      <div>
+         <p>We don't just make food – we’re inspired to create it! We want you to experience our flavours,<br>our music and our traditions right in the heart of Brisbane.</p>
+         <p>With fire in our hearts and eyes that light up the future <em>Mexican cuisine</em> scene of Brisbane, <br>we want to share this space, our home, and welcome you to a little piece of why our food is an<br> integral part of our everyday life.</p>
+         <p>Our aim is to offer our guests with the most authentic Mexican cuisine. It is not only a venue,<br> it is a little part of Mexico built with love and filled with treasures from our <strong>"Patrona <br>virgen de Guadalupe”</strong> presiding in the dining room, to our trompo (spit roaster for tacos al pastor)<br> and the terrace to enjoy an unforgettable lunch or dinner in one of the best parts of Teneriffe with<br> the Mexican touch.</p>
+         <h2>Our Team</h2>
+         <br>
+         <div class="row">
+            <div class="column">
+               <img src="../IMAGES/Team_Owner.jpg" alt="Owner" style="width:100%" >
+            </div>
+            <div class="column">
+               <img src="../IMAGES/Team_Head_Chef.jpg" alt="Head Chef" style="width:100%">
+            </div>
+            <div class="column">
+               <img src="../IMAGES/Team_Chef.jpg" alt="Chef" style="width:100%">
+            </div>
+         </div>
+         <div class="row">
+            <div class="column">
+               <p>Owner- René Redzepi</p>
+            </div>
+            <div class="column">
+               <p>HeadChef- Thomas Keller</p>
+            </div>
+            <div class="column">
+               <p>Chef- Gordon Ramsay</p>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
+
