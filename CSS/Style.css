@@ -1,0 +1,355 @@
+@font-face {
+	font-family: sanfont;
+	src: url('Open_Sans/OpenSans-Regular.ttf');
+}
+
+body {
+	background-color: #CCCCFF;
+	color: #181818;
+}
+
+table,
+th,
+td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 10px;
+}
+
+a {
+	font-family: sanfont;
+}
+
+h1 {
+	color: #CC00CC;
+	text-align: right;
+}
+
+h2 {
+	color: #FF00CC;
+	text-align: right;
+}
+
+h3 {
+	color: #6600CC;
+	text-align: right;
+}
+
+h4 {
+	color: #33FF66;
+	text-align: right;
+}
+
+h5 {
+	color: #990033;
+	text-align: right;
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: #3366CC;
+}
+
+.topnav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+.topnav a.active {
+	background-color: #CC6699;
+	color: white;
+}
+
+table {
+	width: 75%;
+}
+
+.rowEvent {
+	display: flex;
+	padding-left: 15%;
+	text-align: left;
+	padding-right: 15%;
+}
+
+.button {
+	background-color: #363a42;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+.columnEvent {
+	flex: 50%;
+	padding: 10px;
+	height: 50%;
+}
+
+.center_text {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 5px;
+	margin: 0;
+}
+
+.para {
+	margin-top: 1px;
+	color: #336699 !important;
+}
+
+p {
+	color: #fff;
+}
+
+.contact {
+	margin-bottom: 0px
+}
+
+li {
+	display: inline-block;
+}
+
+blockquote {
+	margin: 0px;
+	padding-top: 5px;
+	font-family: 'sanfont';
+}
+
+.blog-links {
+	margin-top: 10px;
+	color: #336699;
+}
+
+
+/* The grid: Four equal columns that floats next to each other */
+
+.column {
+	float: left;
+	width: 25%;
+	padding: 10px;
+}
+
+
+/* Style the images inside the grid */
+
+.column img {
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.column img:hover {
+	opacity: 1;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+/* The expanding image container */
+
+.container {
+	position: relative;
+	display: none;
+}
+
+
+/* Expanding image text */
+
+#imgtext {
+	position: absolute;
+	bottom: 15px;
+	left: 15px;
+	color: white;
+	font-size: 20px;
+}
+
+
+/* Closable button inside the expanded image */
+
+.closebtn {
+	position: absolute;
+	top: 10px;
+	right: 15px;
+	color: white;
+	font-size: 35px;
+	cursor: pointer;
+}
+
+.site-footer {
+	background: #CC6699;
+	font-size: 14px;
+	font-family: sanfont;
+}
+
+.text-box {
+	margin-left: 45px;
+}
+
+.text-box-date {
+	margin-left: 88px;
+}
+
+.heading {
+	margin-bottom: 0px;
+}
+
+.heading-para {
+	margin-top: 0px;
+	color: black;
+}
+
+.list-unstyled {
+	list-style-type: none;
+	padding: 5px;
+}
+
+@media only screen and (max-width: 769px) {
+	table,
+	th,
+	td {
+		padding: 1.3%;
+		/*10/768*/
+	}
+	.topnav a {
+		padding: 1.82% 2.08%;
+		/*14/768   16/768*/
+	}
+	.para {
+		margin-top: 0.13%;
+		/*1/768*/
+	}
+	blockquote {
+		padding-top: 0.65%;
+		/*5/768*/
+	}
+	.column {
+		padding: 1.3%;
+		/*10/769*/
+	}
+	.list-unstyled {
+		padding: 0.65%;
+		/*5/768*/
+	}
+	.text-box {
+		margin-left: 5.85%;
+		/*45/768*/
+	}
+	.text-box-date {
+		margin-left: 11.44%;
+		/*88/768*/
+	}
+	.column {
+		float: none;
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media only screen and (max-width: 601px) {
+	table,
+	th,
+	td {
+		padding: 1.6%;
+		/*10/600*/
+	}
+	.topnav a {
+		padding: 2.33% 2.66%;
+		/*14/600   16/600*/
+	}
+	.para {
+		margin-top: 0.16%;
+		/*1/600*/
+	}
+	blockquote {
+		padding-top: 0.83%;
+		/*5/600*/
+	}
+	.column {
+		padding: 1.66%;
+		/*10/600*/
+	}
+	.list-unstyled {
+		padding: 0.83%;
+		/*5/600*/
+	}
+	.text-box {
+		margin-left: 7.5%;
+		/*45/600*/
+	}
+	.text-box-date {
+		margin-left: 14.66%;
+		/*88/600*/
+	}
+	.column {
+		float: none;
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media only screen and (max-width: 481px) {
+	table,
+	th,
+	td {
+		padding: 2.08%;
+		/*10/480*/
+	}
+	.topnav a {
+		padding: 2.91% 3.3333333333%;
+		/*14/480   16/480*/
+	}
+	.para {
+		margin-top: 0.20%;
+		/*1/480*/
+	}
+	blockquote {
+		padding-top: 1.04%;
+		/*5/480*/
+	}
+	.column {
+		padding: 2.08%;
+		/*10/480*/
+	}
+	.list-unstyled {
+		padding: 1.04%;
+		/*5/480*/
+	}
+	.text-box {
+		margin-left: 9.375%;
+		/*45/480*/
+	}
+	.text-box-date {
+		margin-left: 18.33%;
+		/*88/480*/
+	}
+	.column {
+		float: none;
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
